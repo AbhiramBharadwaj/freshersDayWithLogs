@@ -8,7 +8,7 @@ import Team from '@/components/Team'
 import EventDetails from '@/components/EventDetails'
 import Timeline from '@/components/Timeline'
 import Highlights from '@/components/Highlights'
-import Gallery from '@/components/Gallery'
+// import Gallery from '@/components/Gallery'
 import Footer from '@/components/Footer'
 import ParticleBackground from '@/components/ParticleBackground'
 
@@ -24,7 +24,7 @@ export default function Home() {
       <EventDetails />
       <Timeline />
       <Highlights />
-      <Gallery />
+      {/* <Gallery /> */}
       <Footer />
     </main>
   )
