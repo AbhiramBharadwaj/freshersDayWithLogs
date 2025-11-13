@@ -163,19 +163,6 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.8 }}
           >
-            <motion.h2 
-              className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6 sm:mb-8 text-cyan-400"
-              animate={{ 
-                textShadow: [
-                  '0 0 20px rgba(34, 211, 238, 0.6)',
-                  '0 0 30px rgba(34, 211, 238, 0.8)',
-                  '0 0 20px rgba(34, 211, 238, 0.6)',
-                ]
-              }}
-              transition={{ duration: 2, repeat: Infinity }}
-            >
-              ⏰ Event Starts In
-            </motion.h2>
             <Countdown date={eventDate} renderer={renderer} />
           </motion.div>
 
