@@ -156,16 +156,6 @@ const Hero = () => {
             </motion.div>
           </motion.div>
 
-          {/* Countdown Timer */}
-          <motion.div
-            className="mb-8 sm:mb-12 px-2 sm:px-4"
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.8 }}
-          >
-            <Countdown date={eventDate} renderer={renderer} />
-          </motion.div>
-
           {/* CTA Buttons */}
           <motion.div
             className="flex flex-col sm:flex-row gap-4 justify-center px-4"
